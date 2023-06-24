@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>BÀI TẬP JS BUỔI 7-8</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="text-center">
+                <label class="title">BÀI TẬP JS BUỔI 7-8</label>
+            </div>
+        </div>
+        <div class="input-array">
+            <input type="number" name="" id="array-value">
+            <button id="add-number" class="btn-submit">Thêm số</button>
+        </div>
+        <div class="array-display">
+            <label class="lbl"></label>
+        </div>
+        <div class="content">
+            <div id="accordion">
+    
+                <div class="card">
+                  <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                      Tổng số dương
+                    </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      <button class="btn-submit">Tính tổng</button>
+                      <label class="lbl" id="lbl-sum"></label>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                        Đếm số dương
+                    </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <button class="btn-submit">Đếm số</button>
+                        <label class="lbl" id="lbl-count"></label>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                        Tìm số nhỏ nhất
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <button class="btn-submit">Tìm số nhỏ nhất</button>
+                        <label class="lbl" id="lbl-min"></label>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                        Tìm số dương nhỏ nhất
+                    </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn-submit">Tìm số dương nhỏ nhất</button>
+                        <label class="lbl" id="lbl-minNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                        Tìm số chẵn cuối cùng
+                      </a>
+                    </div>
+                    <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn-submit">Tìm số chẵn</button>
+                        <label class="lbl" id="lbl-lastNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                        Đổi chỗ
+                      </a>
+                    </div>
+                    <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <input type="number" id="inputSwap1" class="inputSwap" placeholder="Nhập vị trí số 1">
+                        <input type="number" id="inputSwap2" class="inputSwap" placeholder="Nhập vị trí số 2">
+                        <button class="btn-submit">Đổi chỗ</button>
+                        <label class="lbl" id="lbl-swapNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
+                        Sắp xếp tăng dần
+                      </a>
+                    </div>
+                    <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn-submit">Sắp xếp</button>
+                        <label class="lbl" id="lbl-sortNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
+                        Tìm số nguyên đầu tiên
+                        
+                      </a>
+                    </div>
+                    <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn-submit">Tìm số nguyên tố</button>
+                        <label class="lbl" id="lbl-ntNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseNine">
+                        Đếm số nguyên
+                    </a>
+                    </div>
+                    <div id="collapseNine" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <div>
+                            <input type="number" id="inputCount" class="inputSwap" placeholder="Nhập vị trí số 1">
+                            <button class="btn-submit">Nhập số</button>
+                        </div>
+                        <button class="btn-submit">Đếm số nguyên</button>
+                        <label class="lbl" id="lbl-countNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTen">
+                        So sánh số lượng số âm và dương
+                      </a>
+                    </div>
+                    <div id="collapseTen" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn-submit">So Sánh</button>
+                        <label class="lbl" id="lbl-compNumber"></label>
+                      </div>
+                    </div>
+                  </div>
+    
+              
+            </div>
+        </div>
+    </div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

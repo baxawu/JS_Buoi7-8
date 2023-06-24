@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    max-width: 1000px;
+    margin-top: 100px;
+    padding: 50px 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-image:  url(../img/bg1.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}   
+.heading {
+    padding-bottom: 50px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: black;
+}
+.input-array{
+    margin-bottom: 30px;
+}
+#array-value{
+    margin-left: 20px;
+    width: 50%;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin-right: 20px;
+}
+.btn-submit{
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: rgb(230, 10, 112);
+    color: white;
+    border: 0px;
+    border-radius: 25px;
+}
+.btn-submit:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    transition: all 0.5s;
+}
+.array-display{
+    margin-bottom: 50px;
+}
+.lbl{
+    width: 100%;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    background-color: rgb(230, 10, 112);
+    margin-top: 20px;
+}
+.inputSwap{
+    width: 40%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    margin-right: 20px;
+    padding: 20px;
+}
+.card-header{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card-header a{
+    font-size: 20px;
+    color: rgb(230, 10, 112);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;}
+
+.card{
+    margin-bottom: 40px;
+}
